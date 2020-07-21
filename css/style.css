@@ -1,0 +1,29 @@
+@import url(/css/reset.css);
+@import url(/css/message.css);
+@import url(/css/header.css);
+@import url(/css/left-menu.css);
+@import url(/css/chat-list.css);
+@import url(/css/chat.css);
+@import url(/css/chat-header.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+html{
+    font-size: 65%;
+    font-family: 'Roboto', sans-serif;
+}
+body{    
+    color: white;
+    background-color: #0e1621;    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   
+}
+.main-window{    
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    height: 98%; 
+    justify-content: center;          
+}
+
+

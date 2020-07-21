@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content:flex-end;   
+    background-color: #242f3d;    
+    height: 2%;    
+}
+.header-item{
+    height: 100%;
+    width: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-item-icon-close{
+    height: 100%;
+    margin-right: 5%;
+}
+.header-item-icon{
+    height: 100%;
+    margin-right: 5%;
+}
+.header-item-icon:hover{
+    transition: background-color 0.15s;
+    background-color: grey; 
+    outline: 0px solid transparent;
+}
+.header-item-icon:active{
+    transition: background-color 0.2s;
+    background-color:rgb(75, 74, 74); 
+    outline: 0px solid transparent;
+}
+.header-item-icon-close:hover{
+    transition: background-color 0.3s;
+    background-color: red; 
+    outline: 0px solid transparent;
+}
+.header-item-icon-close:active{
+    transition: background-color 0.3s;
+    background-color: rgb(167, 1, 1); 
+    outline: 0px solid transparent;
+}
