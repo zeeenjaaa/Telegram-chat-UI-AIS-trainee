@@ -7,7 +7,7 @@
     
     overflow: auto;
     max-height: 90%;
-    /*height: 90%;*/
+    height: 90%;
     width: 100%;
     background-color:#0e1621;
     display: flex;
