@@ -1,10 +1,10 @@
-@import url(/css/reset.css);
-@import url(/css/message.css);
-@import url(/css/header.css);
-@import url(/css/left-menu.css);
-@import url(/css/chat-list.css);
-@import url(/css/chat.css);
-@import url(/css/chat-header.css);
+@import "/css/reset.css";
+@import "/css/message.css";
+@import "/css/header.css";
+@import "/css/left-menu.css";
+@import "/css/chat-list.css";
+@import "/css/chat.css";
+@import "/css/chat-header.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
 
 html{
