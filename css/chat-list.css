@@ -114,6 +114,7 @@
     align-self: flex-start;   
     display: flex;
     justify-content: center;
+    word-wrap: break-word;
 }
 .chat-list-body-element-date-text{
     align-self: center;

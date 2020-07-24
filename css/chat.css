@@ -22,8 +22,8 @@
 }
 .chat-footer-text-area{
     max-width:90%;   
-    width: 90%;
-    min-width: 65%;
+    width: 85%;
+    min-width: 60%;
 }
 
 .chat-footer-item{
