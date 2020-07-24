@@ -18,11 +18,9 @@
     margin-bottom: 5%;
     width: 100%;
     display: flex;
-  /*justify-content: center;*/
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 .left-menu-element:hover{    
 cursor: pointer;
