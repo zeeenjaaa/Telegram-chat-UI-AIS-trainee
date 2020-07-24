@@ -6,17 +6,20 @@
     font-size: 95%;
 }
 .chat-list-header-text{
-    background-color:#242f3d;
-    margin-top: 2%;
+    background-color:#242f3d; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 4%;
     margin-bottom: 3%;
     margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 5%;
+  
     border-width: 0;
     resize: none;   
     color: white;
-    width: 94%;
+    width: 92%;
     max-height: 100%;  
-   /* height: 2vh;*/
+    height: 2vh;
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -32,10 +35,11 @@
 
 .chat-list-body-element{
     height: fit-content;    
-    min-height: 6vh;
+    min-height: 60px;
     display: flex;
     flex-direction: row;    
     justify-content: space-between;
+
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
@@ -67,11 +71,11 @@
     display: flex;
     align-items: center;    
     align-self: center;
-    width: 10%;   
+    width: 15%;   
     margin-left: 2%;
 }
 .chat-list-body-element-avatar-image{   
-    width: 80%;
+    width: 90%;
 }
 /*_____________________*/
 
@@ -88,14 +92,14 @@
 .chat-list-body-element-name{
    /* background-color: darkgrey;*/
   /* background-color: yellow;*/
-    margin-top: 3%;
+    padding-top: 10%;
     align-self: flex-start;
 }
 
 
 .chat-list-body-element-message{
   /*  background-color: rgb(116, 63, 63);*/
-    margin-bottom: 2%;
+    padding-bottom: 10%;
     align-self: flex-start;
     color: grey;
 }
@@ -106,10 +110,10 @@
     width: 20%;    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;   
+    justify-content: space-around;   
     align-items: center;
     font-size: 80%;    
-  /*  background-color: cornflowerblue;*/
+  /*  background-color: rgb(91, 102, 122);*/
 }
 
 .chat-list-body-element-date{
@@ -119,7 +123,7 @@
     align-self: flex-start;   
     display: flex;
     justify-content: center;
-  /*  background-color: crimson;*/
+   /* background-color: crimson;*/
 
 }
 .chat-list-body-element-date-text{
@@ -130,11 +134,12 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 20%;
-    height: 40%;
+    
+    width: 25%;
+    height: 25%;
     background-color: #38485e;
-    border-radius: 100%;
-    margin-bottom: 3%;
+    border-radius: 50%;
+    /*padding-bottom: 3%;*/
    /* display: flex;*/
 }
 

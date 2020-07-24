@@ -10,6 +10,7 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;    
+  
 }
 .chat-header-name-date{
     width: 80%;
@@ -29,17 +30,26 @@
     padding-bottom: 2%;
     color: gray;
 }
-.chat-header-buttons{ 
+.chat-header-buttons{    
     width: 20%;
     display: flex;
     flex-direction: row;
     padding-right: 0.05%;
     justify-content: space-between;
+    color: gray ;
+   
+   
 }
 .chat-header-button{ 
+  /*  background-color: red;*/
     display: flex;
     padding-top: 1%;
+    height: 100%;
+    width: 25%;
+    margin-left: 1%;
     align-self: center;
+    align-items: center;
+    justify-content: center;
     background-color:#17212b;
 }
 .chat-header-button-image{   
@@ -47,5 +57,8 @@
 }
 .chat-header-button:hover{ 
     transition: 0.3s;
-    background-color: white;   
+    /*background-color: white;*/
+    color: white;
+    cursor: pointer;
+    
 }

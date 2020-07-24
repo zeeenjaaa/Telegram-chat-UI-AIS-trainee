@@ -14,14 +14,15 @@
     width: 5%;
 }
 .left-menu-element{
-    margin-top: 10%;
+    padding-top: 10%;
     margin-bottom: 5%;
     width: 100%;
     display: flex;
-  /*  justify-content: center;*/
+  /*justify-content: center;*/
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
 }
 .left-menu-element:hover{    
 cursor: pointer;
@@ -34,6 +35,12 @@ cursor: pointer;
     color: #5eb5f7;
 
 }
+.left-menu-element-text{
+    padding-top: 5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    word-wrap: break-word;
+}
 .left-menu-element-icon{
-    width: 60%;
+    font-size: 80%;
 }
