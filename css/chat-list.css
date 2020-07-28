@@ -96,7 +96,6 @@
     color: grey;
 }
 
-
 /* date-unread */
 .chat-list-body-element-date-unread{
     width: 20%;    
@@ -123,8 +122,7 @@
 .chat-list-body-element-unread{  
     display: flex;
     justify-content: center;
-    align-items: center; 
-    
+    align-items: center;     
     width: 25%;
     height: 25%;
     background-color: #38485e;

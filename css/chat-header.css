@@ -9,8 +9,7 @@
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
-    user-select: none;    
-  
+    user-select: none;      
 }
 .chat-header-name-date{
     width: 85%;
@@ -36,9 +35,7 @@
     flex-direction: row;
     padding-right: 0.05%;
     justify-content: space-between;
-    color: gray ;
-   
-   
+    color: gray ;   
 }
 .chat-header-button{ 
     display: flex;
@@ -57,6 +54,5 @@
 .chat-header-button:hover{ 
     transition: 0.3s;
     color: white;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }

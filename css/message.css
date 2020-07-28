@@ -11,6 +11,7 @@
   user-select: none;
 }
 .message-left { 
+  margin-bottom: 1% ;
   margin-top: 1%;
   max-width: 45%;
   align-self: flex-start;  
@@ -28,6 +29,7 @@
   border-bottom: 4px solid transparent;   
 }
 .message-right {
+  margin-bottom: 1%;
   margin-top: 1%;
   max-width: 45%;
   align-self: flex-end;
@@ -43,7 +45,7 @@
   width: 0; height: 0; right: -8px; top: 65%;
   border-top: 4px solid transparent;
   border-left: 8px solid #2b5278;
-  border-bottom: 4px solid transparent;
+  border-bottom: 4px solid transparent;  
 }
 .message-image{
   align-self: center;
