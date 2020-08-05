@@ -1,7 +1,4 @@
-.chat{
-    padding-left: 0.5px;
-    width: 65%;   
-}   
+
 .chat-body{
     overflow: auto;
     max-height: 90%;
@@ -24,6 +21,7 @@
     max-width:90%;   
     width: 85%;
     min-width: 60%;
+    font-size: 80%;
 }
 .chat-footer-item{
     height: 100%;
@@ -32,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 150%;   
+    font-size: 100%;   
 }
 .chat-footer-item:hover{
     color: white;
@@ -48,7 +46,7 @@
     color: white;
     width: 100%;
     max-height: 100%;    
-    font-size: 90%;
+    font-size: 70%;
     font-family: 'Roboto', sans-serif;
 }
 .message-text:focus, input:focus{

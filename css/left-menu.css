@@ -2,17 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    font-size: 70%;
+    align-items: center;   
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;    
 }
-.left-menu{
-    background-color:#0e1621;
-    width: 5%;
-}
+
 .left-menu-element{
     padding-top: 10%;
     margin-bottom: 5%;
@@ -34,6 +30,7 @@ cursor: pointer;
 
 }
 .left-menu-element-text{
+    text-align: center;
     padding-top: 5%;
     padding-right: 1%;
     padding-left: 1%;

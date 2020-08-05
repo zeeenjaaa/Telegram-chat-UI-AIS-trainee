@@ -1,9 +1,4 @@
-.header{
-    display: flex;
-    justify-content:flex-end;   
-    background-color: #242f3d;    
-    height: 2%;    
-}
+
 .header-item{
     height: 100%;
     width: 2%;

@@ -10,7 +10,8 @@
 html{
     font-family: 'Roboto', sans-serif;
     min-width:800px;
-    min-height: 600px;
+    min-height: 500px;
+    font-size: 100%;
 }
 body{    
     color: white;
@@ -26,5 +27,31 @@ body{
     height: 98%; 
     justify-content: center;          
 }
+.chat{
+    padding-left: 0.5px;
+    width: 65%;   
+}   
+.chat-list{
+    display: flex;
+    flex-direction: column;
+    background-color:#17212b;
+    width: 30%;
+    font-size: 70%;
+}
+.header{
+    display: flex;
+    justify-content:flex-end;   
+    background-color: #242f3d;        
+    height: 2vh;    
+}
 
-
+.left-menu{
+    background-color:#0e1621;
+    width: 5%;
+    font-size: 50%;
+}
+.chat-header{
+    height: 5%;
+    background-color:#17212b;
+    font-size: 65%;
+}
