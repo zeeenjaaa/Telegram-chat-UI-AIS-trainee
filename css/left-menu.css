@@ -7,6 +7,7 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;    
+    color: gray;
 }
 
 .left-menu-element{
@@ -31,11 +32,13 @@ cursor: pointer;
 }
 .left-menu-element-text{
     text-align: center;
-    padding-top: 5%;
+    padding: 10% 2%;
+    line-height: 1.3em;
+   /* padding-top: 10%;
     padding-right: 1%;
-    padding-left: 1%;
+    padding-left: 1%;*/
     word-wrap: break-word;
 }
 .left-menu-element-icon{
-    font-size: 80%;
+    font-size: 75%;
 }

@@ -1,14 +1,14 @@
-
 .chat-body{
     overflow: auto;
     max-height: 90%;
-    height: 90%;
+    height: 88%;
     width: 100%;
     background-color:#0e1621;
     display: flex;
     flex-direction: column;
 }
 .chat-footer{
+    min-height: 2em;
     display: flex;
     background-color: #17212b;
     height: 5%;

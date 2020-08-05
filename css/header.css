@@ -1,7 +1,7 @@
 
 .header-item{
     height: 100%;
-    width: 2%;
+    width: 2%;    
     display: flex;
     justify-content: flex-end;
 }

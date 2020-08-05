@@ -1,15 +1,17 @@
 .messages {
   padding-top: 1%; 
   align-self: center;
-  width: 97%;
+  width: 97.4%;
   display: flex;
   flex-direction: column;
-  word-wrap: break-word;    
+  /*word-wrap: break-word;    */
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  line-height: 1em;
   /*background-color: wheat;*/
+  font-size: 0.7em;
 }
 .message-left { 
   margin-bottom: 1%;
@@ -25,7 +27,7 @@
 }
 .message-left::before { content: ''; position: absolute;
   width: 0; height: 0; left: -7px;
-  bottom: 5%;
+  bottom: 3%;
   border-top: 4px solid transparent;
   border-right: 8px solid #182533;
   border-bottom: 4px solid transparent;   
@@ -45,40 +47,48 @@
 .message-right::before {
   content: ''; position: absolute;
   width: 0; height: 0; right: -7px;
-  bottom: 5%;
+  bottom: 3%;
   border-top: 4px solid transparent;
   border-left: 8px solid #2b5278;
   border-bottom: 4px solid transparent;  
 }
 .message-image{
   align-self: center;
-  width: 80%;
+  width: 85%;
 }
 .message-body-text{
-  font-size: 55%;
+  font-size: 80%;
+ 
 }
 .message-body{
   display: flex;
+  /*background-color: indianred;*/
   flex-direction: row;
   justify-content: flex-end;
   justify-content: space-around;
 }
 .message-body-date-seen{
+ /* background-color: indigo;*/
   align-self: flex-end; 
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-left: 5%;
+  padding-left: 5px;
+  
 }
 .message-body-date{
-  padding-top:5%;
+ /* padding-top:5%;
   padding-left: 5%;
-  align-self: flex-end;
+  padding-right: 5%;*/
+ /* align-self: flex-end;*/
+ padding-top: 10%;
+ padding-right: 5px;
   font-size: 60%;
-  color: rgb(145, 145, 145);
+  color: gray;
 }
 .message-body-seen{  
-  padding-left: 5%;
+  /*background-color: indigo;*/
   align-self: flex-end;
-  font-size: 60%;
+  font-size: 0.6em;
+  padding-right: 3px;
 }
