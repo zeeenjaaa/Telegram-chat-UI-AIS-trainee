@@ -77,8 +77,8 @@
 .message-body-date{
  padding-top: 10%;
  padding-right: 5px;
-  font-size: 60%;
-  color: gray;
+  font-size: 0.8em;
+  color: #7f91a4;
 }
 .message-body-seen{  
   align-self: flex-end;

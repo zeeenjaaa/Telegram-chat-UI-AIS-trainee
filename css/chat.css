@@ -11,8 +11,7 @@
     min-height: 2em;
     height: 4%;
     display: flex;
-    background-color: #17212b;
-   
+    background-color: #17212b;   
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
@@ -22,9 +21,11 @@
     max-width:90%;   
     width: 85%;
     min-width: 60%;
-    font-size: 80%;
+    height: 2em;
+    font-size: 0.7em;
     font-weight: 100;
     letter-spacing: 0.8pt;
+    color: #7f91a4;
     
 }
 .chat-footer-item{
