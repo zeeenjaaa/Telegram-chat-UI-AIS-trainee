@@ -1,7 +1,7 @@
 .chat-body{
     overflow: auto;
     width: 100%;
-    height: 90%;
+    height: 89%;
     min-height: 340px;
     background-color:#0e1621;
     display: flex;
@@ -11,26 +11,27 @@
     min-height: 2em;
     height: 4%;
     display: flex;
-    background-color: #17212b;   
+    background-color: #17212b;  
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     align-items: center;
 }
-.chat-footer-text-area{
-    max-width:90%;   
-    width: 85%;
+.chat-footer-text-area{     
+    width: 90%;
     min-width: 60%;
-    height: 2em;
+    height: 100%;
     font-size: 0.7em;
     font-weight: 100;
     letter-spacing: 0.8pt;
     color: #7f91a4;
+    display: flex;
+    align-items: center;
     
 }
 .chat-footer-item{
     height: 100%;
-    width: 4%;
+    width: 3%;
     color: gray;
     display: flex;
     justify-content: center;
@@ -46,8 +47,7 @@
 }
 .message-text{
     align-self: center;
-    background-color:#17212b;
-  
+    background-color:#17212b;  
     padding-top: 0.5em;
     border-width: 0;
     resize: none;   
