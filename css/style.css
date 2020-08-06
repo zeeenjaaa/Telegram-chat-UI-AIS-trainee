@@ -19,7 +19,7 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-    height: 98.9vh;  
+    height: 97vh;  
 }
 .main-window{    
     background-color:black;
