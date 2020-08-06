@@ -81,7 +81,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 80%;    
-    font-size: 0.85em;
+    font-size: 0.80em;
 }
 .chat-list-body-element-name{
     padding-top: 0.5vh;
