@@ -9,52 +9,57 @@
 
 html{
     font-family: 'Roboto', sans-serif;
-    min-width:800px;
-    min-height: 500px;
-    font-size: 100%;
- 
+    min-width:896px;
+    min-height: 504px;
+    font-size: 1.5em;
+  
 }
 body{    
+    background-color: #17212b;
     color: white;
-    background-color: #0e1621;    
     display: flex;
     flex-direction: column;
-    /*height: 100vh; */  
+    height: 98.9vh;  
 }
 .main-window{    
     background-color:black;
     display: flex;
     flex-direction: row;
-    height: 97vh;
+    height: 98%;
     justify-content: center;          
 }
 .chat{
     padding-left: 0.5px;
-    width: 65%;   
+    width: 65%;
+    height: 100%;
+   
 }   
 .chat-list{
     display: flex;
     flex-direction: column;
     background-color:#17212b;
-    width: 30%;
+    width: 31%;
     font-size: 70%;
-    /*height: 100%;*/
+    max-height: 100%;
+    min-height: fit-content;
+   
 }
 .header{
     display: flex;
     justify-content:flex-end;   
     background-color: #242f3d;        
-    height: 2vh;    
+    height: 2%;    
     min-height: 0.8em;
 }
 
 .left-menu{
     background-color:#0e1621;
-    width: 5%;
+    width: 4%;
     font-size: 50%;
+    height: 100%;
 }
 .chat-header{
-    height: 7vh;
+    height: 6%;
     background-color:#17212b;
     font-size: 65%;
 }

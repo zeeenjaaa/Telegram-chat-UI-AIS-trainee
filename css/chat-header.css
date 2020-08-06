@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;   
     justify-content: space-around;    
-    font-size: 90%;   
+    font-size: 85%;   
     padding: 2%;
 }
 .chat-header-name{
@@ -22,7 +22,7 @@
 }   
 .chat-header-date{    
     padding-top: 1%;
-    color: gray;
+    color: #7f91a4;
 }
 .chat-header-buttons{    
     width: 20%;
@@ -35,7 +35,6 @@
 .chat-header-button{ 
     display: flex;
     padding-top: 1%;
-    /*height: 100%;*/
     font-size: 1.3em;
     width: 25%;
     margin-left: 1%;

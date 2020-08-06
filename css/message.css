@@ -1,17 +1,17 @@
-.messages {
+.messages { 
   padding-top: 1%; 
   align-self: center;
-  width: 97.4%;
+  width: 98%;
   display: flex;
   flex-direction: column;
-  /*word-wrap: break-word;    */
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
   line-height: 1em;
-  /*background-color: wheat;*/
-  font-size: 0.7em;
+  font-size: 0.6em;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 .message-left { 
   margin-bottom: 1%;
@@ -62,13 +62,11 @@
 }
 .message-body{
   display: flex;
-  /*background-color: indianred;*/
   flex-direction: row;
   justify-content: flex-end;
   justify-content: space-around;
 }
 .message-body-date-seen{
- /* background-color: indigo;*/
   align-self: flex-end; 
   display: flex;
   flex-direction: row;
@@ -77,17 +75,12 @@
   
 }
 .message-body-date{
- /* padding-top:5%;
-  padding-left: 5%;
-  padding-right: 5%;*/
- /* align-self: flex-end;*/
  padding-top: 10%;
  padding-right: 5px;
   font-size: 60%;
   color: gray;
 }
 .message-body-seen{  
-  /*background-color: indigo;*/
   align-self: flex-end;
   font-size: 0.6em;
   padding-right: 3px;
