@@ -9,8 +9,10 @@
     user-select: none;    
     color: #7f91a4;
 }
-
-.left-menu-element{
+.left-menu-list{
+    overflow-y: auto;
+}
+.left-menu-element{    
     padding-top: 10%;
     margin-bottom: 5%;
     width: 100%;

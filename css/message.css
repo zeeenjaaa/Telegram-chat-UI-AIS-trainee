@@ -1,4 +1,4 @@
-.messages { 
+.messages {
   padding-top: 1%; 
   align-self: center;
   width: 98%;
@@ -16,7 +16,7 @@
 .message-left { 
   margin-bottom: 1%;
   margin-top: 1%;
-  max-width: 45%;
+  max-width: 85%;
   align-self: flex-start;  
   background-color: #182533;
   border-radius: 5px;
@@ -32,10 +32,10 @@
   border-right: 8px solid #182533;
   border-bottom: 4px solid transparent;   
 }
-.message-right {
-  margin-bottom: 1%;
+.message-right {  
+  margin-bottom: 1%;  
   margin-top: 1%;
-  max-width: 45%;
+  max-width: 85%;
   align-self: flex-end;
   background-color: #2b5278;
   border-radius: 5px;
@@ -55,6 +55,8 @@
 .message-image{
   align-self: center;
   width: 85%;
+  max-width: 250px;
+  
 }
 .message-body-text{
   font-size: 80%;

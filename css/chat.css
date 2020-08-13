@@ -1,15 +1,18 @@
 .chat-body{
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     width: 100%;
-    height: 89%;
-    min-height: 340px;
+  /*  height: 100%;*/
+   /* max-height: 87vh;*/
+    min-height: 380px;
+    height: calc(97.9vh - 100px);
     background-color:#0e1621;
     display: flex;
     flex-direction: column;
 }
 .chat-footer{
-    min-height: 2em;
-    height: 4%;
+   /* min-height: 2em;*/
+    height: 45px;
     display: flex;
     background-color: #17212b;  
     flex-direction: row;
@@ -19,7 +22,7 @@
 }
 .chat-footer-text-area{     
     width: 90%;
-    min-width: 60%;
+    min-width: 35%;
     height: 100%;
     font-size: 0.7em;
     font-weight: 100;
@@ -32,6 +35,8 @@
 .chat-footer-item{
     height: 100%;
     width: 3%;
+    min-width: 25px;
+    margin: 5px;
     color: gray;
     display: flex;
     justify-content: center;
@@ -60,6 +65,7 @@
 .message-text:focus, input:focus{
     outline: none;
 }
+/*----------------------*/
 ::-webkit-scrollbar {
     width: 0.5%;   
   }   
@@ -73,3 +79,33 @@
 .chat-body:hover::-webkit-scrollbar-thumb {
     background-color: #4f555c;   
 }
+/*--------------------------*/
+::-khtml-scrollbar {
+    width: 0.5%;   
+  }   
+::-khtml-scrollbar-thumb {   
+    background-color: transparent;
+    border-radius: 4px;
+}
+.chat-body:hover::-khtml-scrollbar-track {       
+    background: #242a33;        
+}
+.chat-body:hover::-khtml-scrollbar-thumb {
+    background-color: #4f555c;   
+}
+/*-------------------------------*/
+/*--------------------------*/
+::-moz-scrollbar {
+    width: 0.5%;   
+  }   
+::-moz-scrollbar-thumb {   
+    background-color: transparent;
+    border-radius: 4px;
+}
+.chat-body:hover::-moz-scrollbar-track {       
+    background: #242a33;        
+}
+.chat-body:hover::-moz-scrollbar-thumb {
+    background-color: #4f555c;   
+}
+/*-------------------------------*/

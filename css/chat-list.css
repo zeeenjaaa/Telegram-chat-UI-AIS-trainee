@@ -24,10 +24,16 @@
 .chat-list-body{
     display: flex;
     flex-direction: column;    
+    overflow-y: scroll;   
+    overflow: -moz-scrollbars-none;
+    
 }
-
+.chat-list-body::-webkit-scrollbar { width: 0 !important; display: none;}
+.chat-list-body::-moz-scrollbars-none { width: 0 !important }
 .chat-list-body-element{
     height: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     min-width: fit-content;
     display: flex;
     flex-direction: row;    

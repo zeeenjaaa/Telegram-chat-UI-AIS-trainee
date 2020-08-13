@@ -1,17 +1,20 @@
 
 .header-item{
     height: 100%;
-    width: 2%;    
+   /* width: 2%;   */
+    width: 20px; 
     display: flex;
     justify-content: flex-end;
+    
 }
 .header-item-icon-close{
     height: 100%;
-    margin-right: 5%;
+    margin: auto;
+    
 }
 .header-item-icon{
     height: 100%;
-    margin-right: 5%;
+    margin: auto;
 }
 .header-item-icon:hover{
     transition: background-color 0.15s;
