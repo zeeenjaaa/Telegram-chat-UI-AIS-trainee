@@ -16,7 +16,7 @@
 .message-left { 
   margin-bottom: 1%;
   margin-top: 1%;
-  max-width: 90%;
+  max-width: 85%;
   align-self: flex-start;  
   margin-left: 9px;
   background-color: #182533;
@@ -36,7 +36,7 @@
 .message-right {  
   margin-bottom: 1%;  
   margin-top: 1%;
-  max-width: 90%;
+  max-width: 85%;
   align-self: flex-end;
   margin-right: 9px;
   background-color: #2b5278;
