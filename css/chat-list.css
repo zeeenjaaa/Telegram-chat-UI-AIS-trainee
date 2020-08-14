@@ -25,19 +25,16 @@
     display: flex;
     flex-direction: column;    
     overflow-y: scroll;   
-    overflow: -moz-scrollbars-none;
-    
+    scrollbar-width: none;    
 }
-.chat-list-body::-webkit-scrollbar { width: 0 !important; display: none;}
-.chat-list-body::-moz-scrollbars-none { width: 0 !important }
 .chat-list-body-element{
     height: 60px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    min-width: fit-content;
+    padding-bottom: 10px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;    
     justify-content: flex-start;
+
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
@@ -69,12 +66,12 @@
     display: flex;
     align-items: center;    
     align-self: center;
-    width: 50px;   
+    width: 60px;   
     padding-left: 1%;
 
 }
 .chat-list-body-element-avatar-image{   
-  width: 100%;
+  width: 95%;
   padding-left: 5%;
 }
 /*_____________________*/

@@ -11,6 +11,7 @@
 }
 .left-menu-list{
     overflow-y: auto;
+    scrollbar-width: none;  
 }
 .left-menu-element{    
     padding-top: 10%;

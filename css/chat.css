@@ -2,10 +2,8 @@
     overflow-y: auto;
     overflow-x: hidden;
     width: 100%;
-  /*  height: 100%;*/
-   /* max-height: 87vh;*/
     min-height: 380px;
-    height: calc(97.9vh - 100px);
+    height: calc(100vh - 120px);
     background-color:#0e1621;
     display: flex;
     flex-direction: column;

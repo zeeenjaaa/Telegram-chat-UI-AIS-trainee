@@ -1,7 +1,7 @@
 .messages {
   padding-top: 1%; 
   align-self: center;
-  width: 98%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   -moz-user-select: none;
@@ -16,8 +16,9 @@
 .message-left { 
   margin-bottom: 1%;
   margin-top: 1%;
-  max-width: 85%;
+  max-width: 90%;
   align-self: flex-start;  
+  margin-left: 9px;
   background-color: #182533;
   border-radius: 5px;
   display: inline-block;
@@ -35,8 +36,9 @@
 .message-right {  
   margin-bottom: 1%;  
   margin-top: 1%;
-  max-width: 85%;
+  max-width: 90%;
   align-self: flex-end;
+  margin-right: 9px;
   background-color: #2b5278;
   border-radius: 5px;
   display: inline-block;
